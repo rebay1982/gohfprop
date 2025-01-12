@@ -9,7 +9,7 @@ So I wrote a super simple command line utility that does just that for me.
 
 ## Requirements 
 The code doesn't have any dependency on anything but the Go runtime. Find the installation instructions
-(here)[https://go.dev/doc/install].
+[here](https://go.dev/doc/install).
 
 ## Build or Run
 ```
