@@ -66,6 +66,7 @@ func colorCondititon(condition string) string {
 		GOOD = "Good"
 		FAIR = "Fair"
 		POOR = "Poor"
+		CLOSED = "Closed"
 	)
 
 	switch (condition) {
@@ -74,6 +75,8 @@ func colorCondititon(condition string) string {
 	case FAIR:
 		return fmt.Sprintf("%s%s%s", BrightYellow, condition, clear)
 	case POOR:
+		return fmt.Sprintf("%s%s%s", BrightRed, condition, clear)
+	case CLOSED:
 		return fmt.Sprintf("%s%s%s", BrightRed, condition, clear)
 	default:
 		return condition
